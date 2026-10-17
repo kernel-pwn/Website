@@ -1,0 +1,23 @@
+<!-- Buttons with javascript -->
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first website</title>
+    </head>
+    <body>
+
+        <button onclick="dosomething()" style="font-size: 25px; background-color: gray; color: lightblue; border-radius: 10px;">Click me!</button>
+
+        <p id="greeting">Hello, World!</p>
+
+        <script>
+            function dosomething(){
+                document.getElementById("greeting").innerHTML = "Goodbye, World!";
+            }
+        </script>
+
+    </body>
+</html>
