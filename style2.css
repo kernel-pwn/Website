@@ -1,0 +1,18 @@
+@font-facce{
+    src: url(Fonts/RobotoCondensed-VariableFont_wght.ttf);
+    font-family: "roboto condensed";
+}   
+@font-face{
+    src: url(Fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf);
+    font-family: "google sans";
+}
+
+h1{
+    font-family: "roboto condensed", "google sans", "lucidia console", "courier new";
+}
+p{
+    font-family: "google sans", "lucidia console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
